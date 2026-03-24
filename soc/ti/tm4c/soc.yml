@@ -1,0 +1,9 @@
+family:
+- name: ti_tiva
+  series:
+  - name: tm4c123x
+    socs:
+    - name: tm4c123gh6pm
+  - name: tm4c129x
+    socs:
+    - name: tm4c1294ncpdt

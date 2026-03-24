@@ -1,0 +1,15 @@
+/* SPDX-License-Identifier: Apache-2.0 */
+
+/dts-v1/;
+
+#include <ti/tm4c123gh6pm.dtsi>
+
+/ {
+	model = "TI EK-TM4C123GXL LaunchPad";
+	compatible = "ti,ek-tm4c123gxl";
+
+	chosen {
+		zephyr,sram = &sram0;
+		zephyr,flash = &flash0;
+	};
+};

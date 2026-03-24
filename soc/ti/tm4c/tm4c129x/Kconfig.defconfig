@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: Apache-2.0
+
+if SOC_TM4C1294NCPDT
+
+config NUM_IRQS
+	default 113
+
+config HAL_TI_TIVAWARE_PART
+	default "PART_TM4C1294NCPDT"
+
+endif # SOC_TM4C1294NCPDT

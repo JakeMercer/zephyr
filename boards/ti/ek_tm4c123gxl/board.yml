@@ -1,0 +1,6 @@
+board:
+  name: ek_tm4c123gxl
+  full_name: TI EK-TM4C123GXL LaunchPad
+  vendor: ti
+  socs:
+  - name: tm4c123gh6pm

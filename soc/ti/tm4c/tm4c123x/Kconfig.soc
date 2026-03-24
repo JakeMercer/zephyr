@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: Apache-2.0
+
+config SOC_SERIES_TM4C123X
+	bool
+	select SOC_FAMILY_TI_TIVA
+	help
+	  TI Tiva TM4C123 series
+
+config SOC_SERIES
+	default "tm4c123x" if SOC_SERIES_TM4C123X
+
+config SOC_TM4C123GH6PM
+	bool
+	select SOC_SERIES_TM4C123X
+	help
+	  TI TM4C123GH6PM
+
+config SOC
+	default "tm4c123gh6pm" if SOC_TM4C123GH6PM

@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: Apache-2.0
+
+if SOC_SERIES_TM4C123X
+
+config SOC_SERIES_TM4C123X
+	select ARM
+	select CPU_CORTEX_M4
+	select CPU_CORTEX_M_HAS_DWT
+	select CPU_HAS_FPU
+	select HAL_TI_TIVAWARE
+
+endif # SOC_SERIES_TM4C123X
